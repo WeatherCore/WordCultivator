@@ -6,8 +6,8 @@
 
 *不管真实词源，能记住拼写和意思，怎么拆都行*
 
-[![Skill](https://img.shields.io/badge/ZCode-Skill-7B68EE?style=flat-square)](./SKILL.md)
-[![Target](https://img.shields.io/badge/考研-CET6-雅思-E34F26?style=flat-square)](./SKILL.md)
+[![Skill](https://img.shields.io/badge/ZCode-Skill-7B68EE?style=flat-square)](./wordcultivator/SKILL.md)
+[![Target](https://img.shields.io/badge/考研-CET6-雅思-E34F26?style=flat-square)](./wordcultivator/SKILL.md)
 [![License](https://img.shields.io/badge/License-MIT-D4AF37?style=flat-square)](./LICENSE)
 
 [快速开始](#-快速开始) · [七步记忆法](#-七步记忆法) · [经典案例](#-经典案例) · [项目结构](#-项目结构)
@@ -85,7 +85,7 @@ sacri → 绑定 sacred（神圣的）  |  fice → "费死"，耗费掉
 脑洞：为了神圣的目的，费掉珍贵的东西拿去献祭 → 牺牲
 ```
 
-> 更多案例见 [references/examples.md](references/examples.md)（8 个高质量邪修案例，含 nevertheless/nonetheless/notwithstanding 三词对比、eradicate 自定义切割等）。
+> 更多案例见 [wordcultivator/references/examples.md](wordcultivator/references/examples.md)（8 个高质量邪修案例，含 nevertheless/nonetheless/notwithstanding 三词对比、eradicate 自定义切割等）。
 
 ---
 
@@ -119,10 +119,14 @@ Skill 会完全基于你的切割方式展开联想，并在末尾附上真实�
 ## 📁 项目结构
 
 ```
-wordcultivator/
-├── SKILL.md                  # 🧠 Skill 定义：三大铁律 + 七步法 + 输出模板 + 高阶技巧
-└── references/
-    └── examples.md           # 📚 经典案例库：8 个已验证的高质量邪修案例
+WordCultivator/
+├── README.md                 # 📖 项目说明（本文件）
+├── Description.md            # 📝 Skill 描述（中英双版）
+├── LICENSE                   # ⚖️ MIT 许可证
+└── wordcultivator/           # 📦 Skill 本体，整个文件夹放入 ZCode skills 目录
+    ├── SKILL.md              # 🧠 Skill 定义：三大铁律 + 七步法 + 输出模板 + 高阶技巧
+    └── references/
+        └── examples.md       # 📚 经典案例库：8 个已验证的高质量邪修案例
 ```
 
 ---
